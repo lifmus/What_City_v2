@@ -1,4 +1,18 @@
 WhatCity::Application.routes.draw do
+  get "maps/index"
+
+  get "maps/show"
+
+  get "maps/edit"
+
+  get "maps/update"
+
+  get "maps/created"
+
+  get "maps/destroy"
+
+  get "maps/new"
+
   get "users/index"
 
   get "users/show"
